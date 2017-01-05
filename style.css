@@ -8,3 +8,20 @@ body {
   width: 960px;
   margin: 20px auto 20px auto;
 }
+h1{
+  color: #807700;
+}
+h4{color: blue;
+}
+#summary{
+  color: red;
+}
+.hobbies{
+  color: green
+}
+element.style {
+    width: 583px;
+}
+#picture{
+  width: 525px
+}
