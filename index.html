@@ -4,11 +4,18 @@
   <title>The Chicago Motorcycle Company</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--My own CSS-->
+  <script src="https://use.fontawesome.com/f9001c39ac.js"></script>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
+<div class="page-header top">
+  <h2>Example page header <small>Subtext for header</small></h2>
+</div>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -31,7 +38,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Honda</a></li>
+            <li><a href="honda.html">Honda</a></li>
             <li><a href="#">Yamaha</a></li>
             <li><a href="#">Suzuki</a></li>
             <li role="separator" class="divider"></li>
@@ -65,24 +72,42 @@
 </nav>
 
 <body>
-  <div class="container">
+
     <div class="jumbotron">
-      <h1>Our Parts, Your Ride</h1>
-      <h2>Freedom on two wheels</h2>
+        <div class="container">
+          <h2>Our Parts, Your Ride</h2>
       <h3><a href="#" class="btn btn-primary">Really, check it out</a></h3>
+      </div>
+  </div>
+
+
+    <div class="col-md-12">
+      <h2 id="unicorn">Who We Are</h2>
+      <p>
+        Here at The Chicago Motorcycle Company, we're dedicated to providing your with the best parts and accessories for your modern classic.  Find inspiration, and share your bike with us. Here, at ChiMoCo, we ride together.
+      </p>
     </div>
+<br>
+<br>
     <div class="row">
-      <div class="col-sm-4">
-        <h4>It's magical.</h4>
-        <p>Rainbows and unicorns.</p>
+      <div class="col-md-4">
+        <h4>Customize Your Ride <i class="fa fa-motorcycle" aria-hidden="true"></i></h4>
+        <p>Find Parts to make your bike, your bike
+        <ul>
+            <li>Lights</li>
+            <li>Chrome</li>
+            <li>Wheels</li>
+        </ul>
+
+      </p>
       </div>
-      <div class="col-sm-4">
-        <h4>You won't believe it.</h4>
-        <p>It'll do your laundry.</p>
+      <div class="col-md-4">
+        <h4>Restore your classic <i class="fa fa-motorcycle" aria-hidden="true"></i></h4>
+        <p>Bring your bike back to life </p>
       </div>
-      <div class="col-sm-4">
-        <h4>It's totally free.</h4>
-        <p>In fact, we pay you.</p>
+      <div class="col-md-4">
+        <h4>Do the ton <i class="fa fa-motorcycle" aria-hidden="true"></i></h4>
+        <p>Tuck in, and go fast</p>
       </div>
     </div>
   </div>

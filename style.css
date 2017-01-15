@@ -1,29 +1,29 @@
-body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-
-}
-#wrapper {
-  width: 960px;
-  margin: 20px auto 20px auto;
+h4{
+  color: blue
 }
 h1{
-  color: #807700;
+  color:red
 }
-h4{color: blue;
+h2{
+  color: white
 }
-#summary{
-  color: red;
+.top{
+  background-image: url(http://kickstart.bikeexif.com/wp-content/uploads/2015/03/daryl-dixon-motorcycle-10-625x417.jpg);
+  border-width: : 0px
 }
-.hobbies{
-  color: green
+
+.row{
+  text-align: center;
 }
-element.style {
-    width: 583px;
+#unicorn{
+  color: blue
 }
-#picture{
-  width: 525px
+.jumbotron{
+  background-image:url(https://i2.wp.com/www.asphaltandrubber.com/wp-content/uploads/2014/12/Ducati-Scrambler-Press-Launch-Mega-Gallery-126.jpg?resize=635%2C422);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
-.white{
-  color:white
+.white
+{color:white
 }
